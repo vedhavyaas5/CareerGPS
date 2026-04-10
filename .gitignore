@@ -1,0 +1,63 @@
+# .gitignore - CareerGPS
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Production builds
+/build
+/dist
+*.min.js
+*.min.css
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.class
+
+# Database backups
+*.bak
+*.backup
+dump.rdb
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Testing
+coverage/
+.nyc_output
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
